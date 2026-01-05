@@ -29,7 +29,10 @@
 
 /* main styles */
 header {
-    background-color: #fdeecd;
+    background-color: #FFF8F3;
+    background-image: url(../hero-dev-portfolio-resources/images/developer.png), url(../hero-dev-portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     padding-top: 50px;
 }
 
@@ -52,4 +55,40 @@ nav .menu a {
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+}
+
+#banner {
+    /* border: 1px solid blue; */
+    /* max-width: 1332px; */
+    margin: 47px 38px 0px 230px; /* top right bottom left */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content {
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
