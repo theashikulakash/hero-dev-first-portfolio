@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* shared styles */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -25,6 +26,23 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0px auto;
+
+}
+.section-heading h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
 }
 
 /* main styles */
@@ -91,4 +109,76 @@ nav .menu a {
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+/* about section styles */
+#about {
+    padding-top: 130px;
+}
+
+#about .about-container {
+    max-width: 1140px;
+    width: 71%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+} 
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+#about .about-container p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+#about .about-container .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info .about-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* skills section styles */
+#skills {
+    padding-top: 130px;
+    
+}
+.skills-container {
+    max-width: 1140px;
+    width: 71%;
+    margin: 0px auto;
+    text-align: center;
+}
+.skills-container .skill-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill-box .skill-card {
+    background-color: #FFFFFF;
+    max-width: 267px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
+}
+.skill-box .skill-card img {
+    max-width: 64px;
+    margin-bottom: 20px;
+}
+.skill-box .skill-card h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skill-box .skill-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
